@@ -1,0 +1,23 @@
+{
+  "name": "redlock",
+  "description": "Redis distributed locks in Nodejs",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./index.js",
+  "author": {
+    "name": "Justin Chou",
+    "email": "justinchou315@gmail.com"
+  },
+  "scripts": {
+    "test": "make test",
+    "install": "(node-gyp rebuild 2> builderror.log) || (exit 0)"
+  },
+  "gypfile": true,
+  "contributer": [],
+  "dependencies": {
+    "async": "^1.12.1",
+    "nan": "^1.8.4",
+    "redis": "^0.12.1",
+    "uuid": "^2.0.1"
+  }
+}
